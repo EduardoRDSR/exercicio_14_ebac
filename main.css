@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(236, 88, 88);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: red;
+}
+
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-skin .nav-link.active:hover{
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: rgb(230, 51, 51);
+}
+
+.section-title{
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-o-jogo, #skin{
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: red;
+}
+
+.nav-skin .nav-link.active, #fale-conosco button{
+    background-color: red;
+    color: #fff
+}
+
+.nav-skin .nav-link:hover{
+    color: red;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
